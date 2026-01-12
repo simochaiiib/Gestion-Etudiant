@@ -8,12 +8,12 @@ L’objectif est créer une application web simple pour gérer les informations 
 Fonctionnalités principales
 ----------------------------------
 Fonctionnalités principales :
-Ajouter un étudiant
-Connexion (login) 
-Inscription (signup)
-Gestion des notes 
-Dashboard
-Emploi du temps (photo)
+- Ajouter un étudiant
+- Connexion (login) 
+- Inscription (signup)
+- Gestion des notes 
+- Dashboard
+- Emploi du temps (photo)
 
 
 Utilisateurs 
@@ -24,12 +24,12 @@ Administrateur 
 
 Technologies utilisées
 ----------------------------------
-Frontend : HTML, CSS
-Backend : PHP
-Base de données : MySQL
+- Frontend : HTML, CSS
+- Backend : PHP
+- Base de données : MySQL
 
 
 Membres du groupe
 ----------------------------------
-Chaib Mohamed
-Amal Mohamed
+- Chaib Mohamed
+- Amal Mohamed
