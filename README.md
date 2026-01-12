@@ -9,14 +9,11 @@ Fonctionnalités principales
 ----------------------------------
 Fonctionnalités principales :
 Ajouter un étudiant
-
 Connexion (login) 
 Inscription (signup)
 Gestion des notes 
 Dashboard
 Emploi du temps (photo)
-
-
 
 
 Utilisateurs 
