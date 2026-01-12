@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="brand">Dashboard Étudiant</div>
+    <div style="display:flex;gap:10px;align-items:center;">
+      <span class="chip">{{STUDENT_NAME}}</span>
+      <a class="btn btn-outline" href="logout.php">Déconnexion</a>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="panel">
+      <h2>Informations</h2>
+      <p><b>Nom :</b> {{FULL_NAME}}</p>
+      <p><b>Email :</b> {{EMAIL}}</p>
+      <p><b>Téléphone :</b> {{PHONE}}</p>
+      <p><b>Filière :</b> {{MAJOR}}</p>
+      
+    </div>
+
+    <div class="panel">
+      <h2>Notes</h2>
+      {{GRADES_TABLE}}
+    </div>
+
+    <div class="panel full">
+      <h2>Emploi du temps (Image)</h2>
+
+      <form method="post" action="upload_timetable.php" enctype="multipart/form-data" class="form">
+        <label>Choisir une image (JPG/PNG)</label>
+        <input type="file" name="timetable_image" accept="image/png, image/jpeg" required>
+        <button class="btn" type="submit">Uploader</button>
+      </form>
+
+      <div style="margin-top:12px;">
+        {{TIMETABLE_IMAGE}}
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

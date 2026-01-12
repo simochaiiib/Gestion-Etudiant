@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscription</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Inscription</h1>
+
+      {{ERRORS}}
+
+      <form method="post" action="signup.php" class="form">
+        <label>Nom complet</label>
+        <input name="full_name" required>
+
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Téléphone</label>
+        <input name="phone">
+
+        <label>Filière</label>
+        <input name="major">
+
+        <label>Mot de passe</label>
+        <input type="password" name="password" required>
+
+        <label>Confirmer</label>
+        <input type="password" name="confirm" required>
+
+        <button class="btn" type="submit">Créer</button>
+      </form>
+
+      <p class="muted">Déjà inscrit ? <a href="login.php">Connexion</a></p>
+    </div>
+  </div>
+</body>
+</html>

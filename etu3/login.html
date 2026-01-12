@@ -1,0 +1,29 @@
+l<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Connexion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Connexion</h1>
+
+      {{ERRORS}}
+
+      <form method="post" action="login.php" class="form">
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Mot de passe</label>
+        <input type="password" name="password" required>
+
+        <button class="btn" type="submit">Se connecter</button>
+      </form>
+
+      <p class="muted">Pas de compte ? <a href="signup.php">Créer un compte</a></p>
+    </div>
+  </div>
+</body>
+</html>
